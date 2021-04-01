@@ -1,0 +1,18 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GSMT"
+        mc:Ignorable="d"
+        Title="黄金太阳综合工具" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <DockPanel LastChildFill="False" DockPanel.Dock="Top" Height="50" VerticalAlignment="Top" Background="#FFD0D0D0">
+            <Button x:Name="Button1" Content="文本修改" Width="100" Margin="10,10,10,10"/>
+            <Button x:Name="Button2" Content="属性修改" Width="100" Margin="10,10,10,10"/>
+        </DockPanel>
+        <ContentControl x:Name="Content1"/>
+
+    </DockPanel>
+</Window>
+   
